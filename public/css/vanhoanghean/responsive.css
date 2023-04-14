@@ -1,0 +1,316 @@
+@media (max-width: 1279px) {
+    .contact-widget{
+        /*padding: 10px 25px;*/
+    }
+}
+@media (max-width: 1024px) {
+    .choose-big .post-thumbnail img{
+        height: 120px;
+    }
+    .sub-banner-wrap img {
+        height: 120px;
+        object-fit: cover;
+    }
+}
+@media (max-width: 980px) {
+    #under-nav img{
+        min-height: auto;
+
+    }
+    #under-nav .carousel-inner .carousel-caption{
+        top:0
+    }
+    #my-nav ul li a{
+        font-size: 11px;
+        padding: 20px 15px;
+    }
+    /*.img-box{*/
+        /*max-height: 113px;*/
+    /*}*/
+    .img-box .overlay-new i, .img-box .overlay-new img{
+        left: 45%;
+        top:45%
+    }
+    .ico-contactus{
+        padding: 0;
+    }
+    #up-header .info-up-head{
+        padding-top: 0;
+    }
+    .about-left-bg{
+        padding: 15px;
+        background-size:50% ;
+    }
+    .overlay-text-about h1{
+        font-size: 30px;
+    }
+    .box-contact{
+        margin-bottom: 10px;
+        /*max-height: none;*/
+    }
+
+    
+}
+@media (max-width: 768px) {
+    .img-box img{
+        width: 100%;
+    }
+    .img-box{
+        max-height: none;
+    }
+    .overlay-new img{
+        width: auto;
+    }
+    #under-nav .carousel-inner .carousel-caption h2{
+        font-size: 22px;
+    }
+    #my-nav.navbar-inverse li a{
+        font-size: 13px;
+    }
+    #header-bottom li{
+        font-size: 12px;
+    }
+    #header-bottom .featured-tags{
+        width: 60%;
+    }
+    a .post-box-title{
+        max-height: 90px;
+    }
+    .right-focus-content{
+        width: 94%;
+    }
+    .post-thumbnail{
+        width: 90px;
+    }
+    .spe-article{
+        margin-bottom: 10px;
+    }
+    .choose-big .border-das{
+        border-right: none;
+    }
+    #sub-cats ul li{
+        font-size: 11px;
+        text-transform: none;
+    }
+    .section-header h2{
+        font-size: 18px;
+    }
+    .page-news .sub-banner .owl-dots{
+        display: none;
+    }
+    .sub-banner .post-box-title{
+        font-size: 14px;
+    }
+     .choose-sm .post-thumbnail,
+    .choose-sm .post-entry
+    /*.page-new-detail .choose-sm .post-thumbnail,*/
+    /*.page-new-detail .choose-sm .post-entry*/
+
+    {
+        width: 100%;
+        margin: 2px 0;
+    }
+    .page-news .new-line-row .item-list .post-thumbnail{
+       width: 30%;
+    }
+    .page-news .new-line-row .item-list .post-entry{
+        width: 65%;
+        float: left;
+    }
+    .choose-big .post-thumbnail img{
+        height: auto;
+    }
+}
+@media (max-width: 767px) {
+    .main-content-wrap .main-bg{
+        padding: 0;
+    }
+    #up-header{
+        display: none;
+    }
+    #my-nav .navbar-right{
+        margin: 0;
+    }
+
+    #my-nav .navbar-nav.navbar-right li a#my-search{
+        /*padding: 20px 0;*/
+    }
+    .nav.navbar-nav.navbar-right > li{
+        display: inline-flex;
+    }
+    
+    .pop-search-box{
+        left: -150px;
+    }
+    #main-menu .menu-item li:first-child a{
+        padding: 20px 15px;
+    }
+    #main-menu .menu-item{
+        margin: 0;
+    }
+    #main-menu .menu-item-right{
+        padding-left: 15px;
+    }
+    .overlay-text{
+        max-width: none;
+        right: auto;
+    }
+
+
+    body,html{
+        overflow-x: hidden;
+    }
+    .br-text h2{
+        font-size: 30px;
+    }
+    .title.title-child-page{
+        font-size: 20px;
+    }
+    .form-input-left{
+        margin-bottom: 20px;
+    }
+    .main-banner-wrap .item img{
+        height: auto;
+    }
+    .right-focus{
+        margin-top: 30px;
+    }
+    .section-header ul.cat-list{
+        display: none;
+    }
+    .border-das,.border-right-e6{
+        border: none;
+    }
+    #header-bottom .featured-tags{
+        width: 100%;
+    }
+    #header-bottom ul.second-nav {
+        float: left;
+        width: 100%;
+    }
+    #my-nav.fixed{
+        display: none;
+    }
+    .info-footer.text-right{
+        text-align: left;
+    }
+    a .post-box-title{
+        max-height: none;
+    }
+
+    /***********************
+           mm-menu
+    **********************/
+    .dis-block {
+        display: block;
+    }
+
+    #my-nav-menu {
+        display: block;
+    }
+
+    nav:not(.mm-menu) {
+        display: none;
+    }
+
+    #menu:not(.mm-menu) {
+        display: none;
+    }
+
+    .show-on img {
+        height: 45px;
+        margin-left:24%;
+    }
+
+    .show-on form {
+        width: 180px;
+    }
+
+    .mm-listview a, .mm-listview a:hover, .mm-navbar a, .mm-navbar a:hover {
+        color: #F79B34;
+    }
+    .copyright-wrap .icon-share{
+        text-align: center!important;
+    }
+    .hot-line {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 11px;
+    }
+    .title-child-page{
+        font-size: 22px;
+    }
+
+}
+@media (max-width: 670px) {
+    .stm_post_details ul{
+        width: 100%;
+    }
+    .stm_post_details .comments_num{
+        width: 100%;
+        text-align: left;
+    }
+}
+@media (max-width: 500px) {
+    #under-nav img{
+        min-height: 300px;
+    }
+    .text-overlay{
+        top:50%;
+        font-size: 16px;
+    }
+    .sub-banner .post-box-title{
+        font-size: 13px;
+    }
+    .main-banner-wrap .owl-next{
+        right: -20px;
+    }
+    #under-nav .carousel-inner .carousel-caption h2{
+        font-size: 24px;
+    }
+    #comment .swiper-container .swiper-pagination{
+        /*top:auto;*/
+        left: 20%;
+    }
+    .overlay-text{
+        right: 0;
+    }
+    .title::after {
+        left: 45%;
+    }
+    #my-nav .dropdown-menu {
+        position: relative;
+        width: 100%;
+    }
+    .title.title-child-page{
+        height: auto;
+    }
+
+
+
+
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+@media (max-width: 398px) {
+    .overlay-text{
+        padding: 60px 20px;
+    }
+    #comment .swiper-container .swiper-pagination{
+        top:82%;
+
+    }
+}
+@media (max-width: 360px) {
+    #my-nav.navbar-inverse {
+        background: #222;
+    }
+    #comment .swiper-container .swiper-pagination{
+    }
+}

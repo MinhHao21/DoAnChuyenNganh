@@ -1,0 +1,77 @@
+.margin1 {
+    margin-right: 1rem;
+}
+
+.padding1 {
+    padding-right: 1rem;
+}
+
+.marginleft1 {
+    margin-left: 1.5rem;
+}
+
+.video-chitietns {
+    width: 100%;
+    height: 120px;
+}
+
+.tinnb-img-l {
+    height: auto;
+    overflow: hidden
+}
+
+.thuvienanh-img {
+    height: 500px;
+    overflow: hidden;
+}
+
+.tva-img-s {
+    height: 155px;
+    overflow: hidden;
+}
+
+.vd-trangchu-l {
+    width: 100%;
+    height: 500px;
+}
+
+.vd-trangchu-s {
+    width: 100%;
+    height: 130px;
+}
+
+@media(max-width:1024px) {
+    .vd-trangchu-l {
+        width: 100%;
+        height: 229px;
+    }
+    .vd-trangchu-s {
+        width: 100%;
+        height: 229px;
+    }
+    .tva-img-s {
+        height: 105px;
+        overflow: hidden;
+    }
+    .thuvienanh-img {
+        height: 203px;
+        overflow: hidden;
+    }
+    .tinnb-img-l {
+        height: auto;
+        overflow: hidden
+    }
+    .video-chitietns {
+        width: 100%;
+        height: 160px;
+    }
+    .padding1 {
+        padding-right: 0rem;
+    }
+    .margin1 {
+        margin-right: 0px;
+    }
+    .marginleft1 {
+        margin-left: 0rem;
+    }
+}

@@ -1,0 +1,40 @@
+#menu .sub-menu {
+    position: absolute;
+    left: 310px;
+    top: 0;
+    left: 10;
+    display: none;
+    z-index: 100;
+}
+
+
+
+ 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #menu .sub-menu {
+        position: absolute;
+        left: 32px;
+        top: 30px;
+        display: none;
+        z-index: 100;
+    }
+}
+@media only screen
+and (min-device-width: 640px)
+and (max-device-width: 1050px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #menu .sub-menu {
+        position: absolute;
+        left: 237px;
+        top: 0;
+        left: 10;
+        display: none;
+        z-index: 100;
+    }
+}

@@ -1,0 +1,53 @@
+/* Nav */
+
+.newslider-vertical .sliderkit-nav-clip {
+    height: 350px !important;
+}
+
+.newslider-vertical .sliderkit-nav-clip .slili {
+    width: 400px !important;
+    padding-right: 10px;
+    height: auto !important;
+}
+
+.newslider-vertical .sliderkit-nav-clip .slili.sliderkit-selected {
+    background: transparent url("/images/1608505-32.png") no-repeat right center;
+}
+
+.newslider-vertical .sliderkit-nav-clip .slili a {
+    width: 360px;
+    text-align: left;
+}
+
+
+/* Panel */
+
+.newslider-vertical .sliderkit-panels {
+    position: absolute;
+    left: 400px;
+    width: 550px;
+    height: 346px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.newslider-vertical .sliderkit-panel {
+    left: 0;
+    top: 0;
+    width: 550px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+/* News block */
+
+.newslider-vertical .sliderkit-news img {
+    overflow: hidden;
+}
+
+
+/*---------------------------------
+ *	News slider > Horizontal
+ *---------------------------------*/

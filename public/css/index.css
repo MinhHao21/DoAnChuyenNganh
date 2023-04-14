@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.h40 {
+    height: 40px;
+}
+
+.banner {
+    background-image: url('/storage/banner-danca.jpg');
+    height: 300;
+    width: 100%;
+    background-size: cover;
+}
+
+.set-web {
+    max-width: 100%;
+}
+
+.nghiencuu-img-l {
+    height: 275px;
+    overflow: hidden;
+}
+
+.nghiencuu-content-l {
+    height: 129px;
+    overflow: hidden;
+}
+
+.nghiencuu-img-s {
+    height: 133px;
+    overflow: hidden;
+}
+
+.set-menu {
+    width: 100%;
+}
+
+.new-img {
+    height: 148px;
+    overflow: hidden;
+}
+
+.nghiencuu-content-s {
+    height: 133px;
+    overflow: hidden;
+}
+
+.zoom {
+    transition: all 0.8s;
+}
+
+.scrollbar {
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+#test {
+    border: 1px solid #ffffff;
+    width: 288px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar {
+    background-color: #024fc3;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+ul {
+    float: right;
+    z-index: 999999;
+}
+
+li {
+    display: inline;
+    transition: 0.3s;
+    padding: 16px 12.5px;
+}
+
+.logo {
+    float: left;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+/* li a:hover {
+    background-color: #fc1a16;
+    transition: 0.3s;
+} */
+
+.icon {
+    float: right;
+    display: none;
+}
+
+ul li .topping:hover {
+    /* background-color: #fc1a16; */
+    /* border-radius: 3px;
+    transition: 0.3s;
+    padding: 4px 6px; */
+}
+
+ul.cap_2 {
+    width: 300px;
+    font-size: 14px;
+    height: auto;
+    border: 1px solid #192433;
+    background-color: #024fc3;
+    position: absolute;
+    top: 49px !important;
+    left: -92px;
+    box-shadow: 2px 2px 4px 1px #00000057;
+    display: none;
+    line-height: 40px;
+}
+
+ul.cap_2 li {
+    display: block;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #cbbcbc;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+ul.cap_2 li:last-child {
+    border: none;
+}
+
+li {
+    position: relative;
+}
+
+li:hover ul.cap_2 {
+    display: block;
+}
+
+ul.cap_2 li:hover {
+    background-color: #008cef;
+    color: white;
+}
+
+.cap1:hover {
+    background-image: linear-gradient( #ff5053, #fa0004);
+}
+
+.dsdisan-img-l {
+    height: 200px;
+    overflow: hidden;
+}
+
+img {
+    border: none;
+}
+
+
+/* .wrapper-content { 
+    margin: 100px auto;
+    width: 400px;
+    height: 500px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+} */
+
+.chucham {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+
+/* ///// */
+
+.scrollbar {
+    float: left;
+    height: 300px;
+    width: 100%;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+#wrapper {
+    text-align: center;
+    margin: auto;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+
+/**  STYLE 2 */
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #7b7b7b;
+}
+
+#style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.img-news-small {
+    height: 100px;
+    overflow: hidden;
+}
+
+.set-video {
+    width: 80%;
+}
+
+.hoatdong-img-l {
+    height: 220px;
+    overflow: hidden;
+}
+
+.hoatdong-img-s {
+    height: 80px;
+    overflow: hidden;
+}
+
+.tinmoi-img-l {
+    height: 100%;
+    overflow: hidden;
+}
+
+.bttpht {
+    height: 118px;
+}
+
+.background-pc {
+    background-image: url('/images/bg-body1.jpg');
+    background-repeat: repeat-x;
+}
+
+.background-pc2 {}
+
+.danhmuc-text {
+    color: #2d71c9;
+}
+
+
+/* ////////// */
+
+@media(max-width:1000px) {
+    .danhmuc-text {
+        color: #2d71c9;
+    }
+    .background-pc {
+        background-image: url('/images/mobile7.PNG');
+        background-repeat: repeat;
+        width: 100%;
+    }
+    .tinmoi-img-l {
+        height: 150px;
+        overflow: hidden;
+    }
+ 
+    /* .background-pc2 {
+        background-image: url('/images/bg-body1.jpg');
+        background-repeat: repeat-x;
+        width: 100%;
+    } */
+    .bttpht {
+        height: 168px;
+    }
+    .new-img {
+        height: 125px;
+        overflow: hidden;
+    }
+    .set-video {
+        width: 85%;
+    }
+    .nghesikhac-img {
+        height: 215px;
+        overflow: hidden;
+    }
+    .chitiet-nghesi-img {
+        height: 106px;
+        overflow: hidden;
+    }
+    ul {
+        display: none;
+    }
+    ul.active {
+        margin: 0;
+        background-color: #024fc3;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 50px;
+        left: 0px;
+        display: block;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white
+    }
+    .icon {
+        display: block;
+    }
+    ul.cap_2 {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        left: 0px;
+    }
+}
+
+
+/* calendar */
+
+.container {
+    width: 100%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.ulcalendar {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #215bac;
+}
+
+.month .ulcalendar {
+    margin: 0;
+    padding: 0;
+}
+
+.month .ulcalendar .licalendar {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: auto;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays .licalendar {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    margin: auto;
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days .licalendar {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.days .licalendar .active {
+    padding: 5px;
+    background: #215bac;
+    color: white !important
+}
+
+
+/* menu dọc */
+
+#menu .uldoc {
+    background: #024fc3;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+}
+
+#menu .lidoc {
+    font-size: 11px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 8px 3px;
+    color: #fff;
+}
+
+#menu .lidoc .adoc {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+
+#menu .lidoc:hover {
+    background-image: linear-gradient( #74abff, #024fc3);
+}
+
+#menu .lidoc:hover .adoc {
+    color: rgb(255, 255, 255);
+}
+
+
+/*=== Quy định cho menu con ===*/
+
+#menu .uldoc .lidoc {
+    position: relative;
+    font-size: 11px;
+}
+
+#menu .sub-menu {
+    position: absolute;
+    left: 244px;
+    top: 0;
+    left: 10;
+    display: none;
+    z-index: 100;
+    width: 300px;
+}
+
+#menu .sub-menu .lidoc .adoc {
+    color: #FFF;
+}
+
+#menu .sub-menu .lidoc:hover .adoc {
+    color: #333;
+}
+
+#menu .lidoc:hover .sub-menu {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.product {
+    width: 100%;
+    /* display: flex; */
+    position: relative;
+}
+
+.product .product-image {
+    flex-basis: 40%;
+}
+
+.product .product-content {
+    flex-basis: 60%;
+}
+
+.product-image .image {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.product-image .image img {
+    display: block;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.cart {
+    display: inline-block;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+}
+
+.wrapper-price .final-price {
+    color: #f57224;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.wrapper-price .origin-price,
+.wrapper-price .sale-price {
+    display: inline-block;
+    font-size: 14px;
+    color: #ccc;
+    vertical-align: middle;
+}
+
+.wrapper-price .sale-price {
+    color: #333;
+    margin-left: 5px;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: 1px solid #f57224;
+}
+
+.wrapper-color {
+    display: flex;
+    font-size: 12px;
+}
+
+.wrapper-color .text {
+    width: 100px;
+    min-width: 100px;
+}
+
+.wrapper-color p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.list-color ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list-color ul li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.list-color ul li:hover,
+.list-color ul li.active {
+    border-color: #f57224;
+}
+
+.description {
+    max-width: 700px;
+}
+
+.description .extra-info {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.add-to-cart {
+    border: 1px solid #ffb916;
+    background: #ffb916;
+    color: #fff;
+    display: block;
+    padding: 12px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header {
+    color: #fff;
+    background-color: #024fc3;
+}
+
+footer {
+    color: #fff;
+    padding: 15px 30px;
+    background-color: #34495e;
+}
+
+header h1,
+footer h1 {
+    margin: 0;
+}
+
+.h-to {
+    width: 751px;
+}
+
+.h-tang {
+    height: 279px;
+}
+
+.mb-am {
+    margin-bottom: -170px;
+}
+
+.h-khong {
+    height: 0px;
+}
+
+.h-bontam {
+    height: 40px;
+}
+
+.h-chin {
+    height: 9px;
+}
+
+.h-slogan {
+    height: 144px;
+}
+
+
+/* nhân reponsive  */
+
+
+/* ----------- iPhone X ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .nghiencuu-img-l {
+        height: 210px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .h-to {
+        width: 375px;
+    }
+    .h-tang {
+        height: 285px;
+    }
+    .mb-am {
+        margin-bottom: -1px;
+    }
+    .h-khong {
+        height: 36px;
+    }
+    .h-bontam {
+        height: 100px;
+    }
+    .h-chin {
+        height: 103px;
+    }
+    .h-slogan {
+        height: 113px;
+    }
+}
