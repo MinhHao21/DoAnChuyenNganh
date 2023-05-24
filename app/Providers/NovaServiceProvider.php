@@ -103,11 +103,12 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                                     // \App\Nova\Disannghethuat::class,
                                     // \App\Nova\Vitriquangcao::class,
                                     // \App\Nova\Quangcao::class,
+                                    \App\Nova\Nhanvien::class,
                                     \App\Nova\Post::class,
-                                    \App\Nova\Video::class,
-                              
-                                    \App\Nova\Banner::class,
-                                    \App\Nova\Thuvienanh::class,
+                                    // \App\Nova\Video::class,
+                                    \App\Nova\Luong::class,
+                                    // \App\Nova\Banner::class,
+                                    // \App\Nova\Thuvienanh::class,
                                 ]
                             ]),
                             Group::make([
@@ -118,7 +119,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                                     \App\Nova\User::class,
                                
                               
-                                    \App\Nova\Loaidanhmuc::class,
+                                    // \App\Nova\Loaidanhmuc::class,
                                     \App\Nova\Danhmuc::class,
                                     
 

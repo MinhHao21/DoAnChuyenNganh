@@ -4,20 +4,33 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Laravel\Nova\Fields\Image;
 
-
-class Video extends Resource
+class Luong extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = \App\Models\Video::class;
+    public static $model = \App\Models\Luong::class;
 
+    /**
+     * Get the displayble label of the resource.
+     *
+     * @return string
+     */
+    public static function label()
+    {
+        return 'Lương';
+    }
+
+    public static function singularLabel()
+    {
+        return 'Lương';
+    }
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
@@ -44,10 +57,17 @@ class Video extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Text::make('Tên', 'name'),
-            Image::make('ẢNh đại hiện', 'thumbnail') ,
-            Text::make('Linkyoutube', 'linkyoutube'),
-            
+                
+                Text::make('Nhân viên', 'nhanvien_id')->rules('required'),
+                Text::make('Lương', 'salary')->rules('required'),
+                Date::make('Ngày thanh toán', 'paid_date')->rules('required'),
+                Text::make('Trạng thái', function () {
+                    if (!$this->published_at) {
+                        return '<span style="color: red">Chưa duyệt</span>';
+                    } else {
+                        return '<span style="color: green">Đã duyệt</span>';
+                    }
+                })->asHtml(),
         ];
     }
 
